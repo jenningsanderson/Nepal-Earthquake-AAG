@@ -1,0 +1,34 @@
+#Analysis Window Information
+
+#Do the entire Month?!
+start_date: '2015-04-25'
+end_date:   '2015-05-31'     
+
+# bbox: '-105.3424072,39.946595,-105.1872253,40.0938316'
+
+#User Information
+title: 'Nepal Earthquake'
+email: 'jennings.anderson@colorado.edu'
+
+#Database & IO Configuration
+database: 'nepal-earthquake3'
+write_directory: '/data/www/nepal-earthquake-aag-2016'
+
+pbf_file_final: '/data/osm_files/AAG/nepal.osm.pbf'
+mongo_only: true
+
+#tag_search_term: nepal
+#changeset_tags_collection: true
+
+User Questions:
+- new_user_count
+- experienced_user_count
+- total_user_count			#These are cumulative, but the database needs to be be updated
+
+Changeset Questions:
+- changesets_x_hour 		#This is cumulative -- but the database is incomplete
+
+Way Questions:
+- number_of_ways_per_tag
+- number_of_buildings_per_tag
+- number_of_highways_per_tag
