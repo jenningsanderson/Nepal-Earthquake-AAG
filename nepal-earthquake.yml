@@ -4,7 +4,7 @@
 start_date: '2015-04-25'
 end_date:   '2015-05-31'     
 
-# bbox: '-105.3424072,39.946595,-105.1872253,40.0938316'
+bbox: '80.0134,26.3033,88.2202,30.5149'
 
 #User Information
 title: 'Nepal Earthquake'
